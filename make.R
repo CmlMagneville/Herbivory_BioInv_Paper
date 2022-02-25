@@ -37,4 +37,11 @@ source(here::here("R", "4_1_SS_SR_grazing_Fig3_.R"))
 # info fig 3
 source(here::here("R", "4_2_Info_Fig3.R"))
 
+# SI5
+source(here::here("R", "5_1_SC_SR_grazing_SI5_.R"))
+
+# SI5
+source(here::here("R", "5_2_Info_SI5.R"))
+
+
 
