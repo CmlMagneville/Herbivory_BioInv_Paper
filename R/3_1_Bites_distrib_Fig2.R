@@ -68,6 +68,9 @@ bites_sp_prop_df[c(33, 34, 35, 36), ] <- bites_sp_prop_df[c(45, 46, 47, 48), ]
 bites_sp_prop_df[c(45, 46, 47, 48), ] <- bites_sp_prop_df[c(49, 50, 51, 52), ]
 bites_sp_prop_df <- bites_sp_prop_df[- c(49, 50, 51, 52), ]
 
+# save into transformed data folder:
+saveRDS(bites_sp_prop_df, here::here("transformed_data/bites_sp_prop_df.rds"))
+
 
 # 3 - Plot ####
 
