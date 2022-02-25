@@ -41,7 +41,7 @@ for (i in (1:nrow(data))) {
   # check if siganus rivlatus is here or not and fill category:
   category <- "ss"
   if (final_all_info_df[which(final_all_info_df$seq_id == seq_id &
-                              final_all_info_df$species == "Siganus_rivulatus"),                                  "tot_bites_nb"] != 0) {
+                              final_all_info_df$species == "Siganus_rivulatus"), "tot_bites_nb"] != 0) {
     category <- "ss_sr"
   }
   
@@ -91,7 +91,8 @@ graph_sssr_boxplots <- ggpubr::ggboxplot(data = grazing_sssr_mod, x = "category"
                 x = "",
                 title = "",
                 color = "Presence or absence of S. rivulatus") +
-  ggplot2::theme(panel.background = ggplot2::element_rect(fill = "white", colour = "white"),                        panel.border = ggplot2::element_blank(),
+  ggplot2::theme(panel.background = ggplot2::element_rect(fill = "white", colour = "white"),
+                 panel.border = ggplot2::element_blank(),
                  panel.grid.major = ggplot2::element_blank(),
                  panel.grid.minor = ggplot2::element_blank(),
                  axis.line = ggplot2::element_line(size = 0.5, linetype = "solid", 
