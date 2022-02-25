@@ -32,20 +32,25 @@ source(here::here("R", "3_1_Bites_distrib_Fig2.R"))
 source(here::here("R", "3_2_Info_Fig2.R"))
 
 # fig 3
-source(here::here("R", "4_1_SS_SR_grazing_Fig3_.R"))
+source(here::here("R", "4_1_SS_SR_grazing_Fig3.R"))
 
 # info fig 3
 source(here::here("R", "4_2_Info_Fig3.R"))
 
 # SI5
-source(here::here("R", "5_1_SC_SR_grazing_SI5_.R"))
+source(here::here("R", "5_1_SC_SR_grazing_SI5.R"))
 
 # SI5
 source(here::here("R", "5_2_Info_SI5.R"))
 
 # fig 4
-source(here::here("R", "6_1_maxN_bites_Fig4_.R"))
+source(here::here("R", "6_1_maxN_bites_Fig4.R"))
 
 # info fig 4
 source(here::here("R", "6_2_Info_Fig4.R"))
 
+# fig 5
+source(here::here("R", "7_1_Temp_var_Fig5.R"))
+
+# info fig 5
+source(here::here("R", "7_2_Info_Fig5.R"))
