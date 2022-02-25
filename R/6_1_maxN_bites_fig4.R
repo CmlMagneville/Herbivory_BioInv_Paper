@@ -1,6 +1,6 @@
 ###############################################################################
 ##
-## 6_1_maxN_bites_fig4.R
+## 6_1_maxN_bites_Fig4.R
 ##
 ## Purpose: Prepare data and create the Fig4 of the paper ... 
 ## ... illutrating the correlation between maximal number of individuals ...
