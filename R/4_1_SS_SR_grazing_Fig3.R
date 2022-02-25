@@ -53,7 +53,7 @@ for (i in (1:nrow(data))) {
   
   # get individual number of ss in the seq:
   ind_ss <- final_all_info_df[which(final_all_info_df$seq_id == seq_id &
-                                      final_all_info_df$species == "Sarpa_salpa"),                                                                            "maxN"]
+                                      final_all_info_df$species == "Sarpa_salpa"), "maxN"]
   grazing_ss_sr$ind_nb_ss[n] <- ind_ss
   
   print(n)
