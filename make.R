@@ -13,6 +13,7 @@
 
 # load needed packages:
 library(dplyr)
+library(tidyverse)
 
 # Run analysis script in the right order
 
@@ -54,3 +55,14 @@ source(here::here("R", "7_1_Temp_var_Fig5.R"))
 
 # info fig 5
 source(here::here("R", "7_2_Info_Fig5.R"))
+
+# fig 6
+
+
+# info fig6
+
+
+# fig 7
+source(here::here("R", "9_Cum_graz_Fig7.R"))
+
+
