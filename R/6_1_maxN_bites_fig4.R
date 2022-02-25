@@ -39,6 +39,8 @@ final_all_info_df2$species <- factor(final_all_info_df2$species,
                                                  "Siganus rivulatus (n = 246)"))
 
 
+# save final_all_info_df2 because needed in info script:
+saveRDS(final_all_info_df2, here::here("transformed_data", "final_all_info_df2.rds"))
 
 # compute correlation for each species (without seq with 0 individuals) (and nb of sequences with individuals:
 # H0 coeff is null
