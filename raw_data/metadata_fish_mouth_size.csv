@@ -1,0 +1,122 @@
+sampling_id,region,sampling_rank,zone,spot_name,spot_longitude,spot_latitude,sampling_date,way_point,gps_device,precision,sampling_start,sampling_end,sampling_method,weather,wind_speed,wave_height,water_temperature,visibility_horizontal,current_speed,depth_min,depth_max,habitat_type,pictures_habitat,videos_habitat,sampling_area,tasks_done,notes
+R01,R,1,North_beach,Eilat_north_beach,E 34.96054,N 29.54178,2018-05-28,RNORTHBEACH,Garmin_oregon189,5,21:10,22:19,scubadiving,Night_clear,10,0,26,>30,<0.5,2,10,Sand_rocky_seagrass_algae,Yes,Yes,100_x_100,water_sediment_fish,Below_pier
+R02,R,2,Coral_reef,Eilat_south_beach,E 34.91994,N 29.48554,2018-05-29,RSOUTHBEACH,Garmin_oregon190,5,15:30,18:00,scuba_snorkel,Sunny,10,10,26,>30,<0.5,0,10,Coral_reef,Yes,Yes,100_x_100,macrophytes_videos,in_front_camp_area
+R03,R,3,Coral_reef,Eilat_IUI,E 34.92238,N 29.49817,2018-05-29,RIUI,Garmin_oregon191,5,19:30,0:30,snorkeling,Dawn_to_night,0,0,26,>30,<0.5,2,10,Sand_reef,Yes,Yes,100_x_50,water_videos_fish,blue whale spotted in the afternoon nearby
+R04,R,4,North_beach,Eilat_north_beach,E 34.96054,N 29.54178,2018-05-30,RNORTHBEACH,Garmin_oregon192,5,13:30,14:00,snorkeling,Sunny,10,0,26,>20,<0.5,0,2,Sand_rocky_seagrass_algae,Yes,Yes,100_x_100,water_macrophytes,close_to_shore
+R05,R,5,Coral_reef,Eilat_IUI,E 34.92238,N 29.49817,2018-05-31,RIUI,Garmin_oregon193,5,10:50,12:00,snorkeling,Sunny,10,0,26,>30,NA,1,4,Sand_reef,Yes,Yes,200_x_50,water_videos,all_along_IUI_beach
+R06,R,6,North_beach,Eilat_north_beach,E 34.96054,N 29.54178,2018-05-31,RNORTHBEACH,Garmin_oregon194,5,21:10,22:00,scubadiving,Night_clear,0,0,26,NA,NA,2,8,Sand_rocky_seagrass_algae,Yes,Yes,100_x_100,fish,along_boat_mooring
+R07,R,7,Coral_reef,Eilat_IUI,E 34.92238,N 29.49817,2018-06-01,RIUI,Garmin_oregon195,5,0:00,0:45,scubadiving,Night_clear,20,10,26,NA,NA,3,12,Sand_reef,Yes,Yes,100_x_50,fish,around_IUI_pier
+I08,I,8,Sdot_Yam,Sdot_Yam,E 34.88889,N 32.49094,2018-06-03,ISDOTYAM,Garmin_oregon196,5,19:15,19:30,snorkeling,Dusk_clear,20,30,26,10_20,0_0.5,1,3,sand_rocks,No,No,100_x_100,water_benthos,in_lagoon
+I09,I,9,Sdot_Yam,Sdot_Yam,E 34.885056,N 32.48966,2018-06-03,ISDOTYAM,GPS_shahar,5,21:25,22:15,scubadiving,Night_clear,20,30,26,8_10,NA,3,6,rocks_sand,No,No,unknown,fish,
+I10,I,10,Sdot_Yam,Sdot_Yam,E 34.887522,N 32.492817,2018-06-04,ISDOTYAM,Garmin_oregon198,5,17:00,18:00,snorkeling,Sunny,20,50_100,26,10_20,1,1,3,sand_rocks,Yes,Yes,250_x_20,macrophytes,along_barrier
+I11,I,11,Mikhmoret,Mikhmoret,E 34.86620,N 32.40466,2018-06-05,IMIKHMORET,Garmin_oregon199,5,17:30,18:15,snorkeling,Sunny,20,50_100,26,5_10,1,1,4,rocks_sand,Yes,Yes,100_x_100,water_benthos_macrophytes,
+I12,I,12,Mikhmoret,Mikhmoret,E 34.864384,N 32.40617,2018-06-05,IMIKHMORET,GPS_shahar,5,22:25,23:25,scubadiving,Night_clear,20,50,26,8_10,NA,3,7.7,rocks_sand,No,No,unknown,fish,
+I13,I,13,Mikhmoret,Mikhmoret,E 34.869244,N 32.414982,2018-06-07,IMIKHMORET,GoogleMaps,0,10:30,11:45,snorkeling,Sunny,20,50_100,26,5_10,1,2,5,rocks_sand,Yes,Yes,200_x_200,videos,Sea_Reserve_Tel_Gerrit
+F14,F,14,Carnon_Palavas,Carnon,E 3.97020,N 43.51992,2018-06-11,LESURF,Garmin_oregon200,5,17:45,19:45,scubadiving,cloudy_rainy,30,50,23,0_5,1,7,13,rocky_sandy_seagrass,No,No,50_x_50,water_macrophyte_fish,
+F15,F,15,Carnon_Palavas,Carnon,E 3.97020,N 43.51992,2018-06-11,LESURF,Garmin_oregon200,5,22:05,22:55,scubadiving,night_clear,0,0,23,0_5,0.5_1,7,13,rocky_sandy_seagrass,No,No,50_x_50,sediment,
+F16,F,16,Frontignan_Aresquiers,Frontignan,E 3.83430,N 43.43370,2018-06-12,LaGrotte,Garmin_oregon200,5,19:45,20:40,scubadiving,dusk,20,0,18,5,0,9,11,rocky_algae,No,No,50_x_50,water_macrophyte_benthos_fish,gorgona
+F17,F,17,Frontignan_Aresquiers,Frontignan,E 3.83430,N 43.43370,2018-06-12,LaGrotte,Garmin_oregon200,5,22:45,23:33,scubadiving,night_clear,30,0,18,5,0,9,11,rocky_algae,No,No,50_x_50,fish_macrophyte,gorgona
+F18,F,18,Frontignan_Aresquiers,Frontignan,NA,NA,2018-06-15,NA,NA,NA,unknown,unknown,gillnet,clear_wind,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,No,No,unknown,fish,fisherman_Denis_PONS
+F19,F,19,Frontignan_Aresquiers,Frontignan,NA,NA,2018-06-15,NA,NA,NA,unknown,unknown,angling_handnet,clear_wind,unknown,unknown,unknown,unknown,unknown,unknown,unknown,rocky,No,No,unknown,fish,David_MOUILLOT's_trainees
+F20,F,20,Frontignan_Aresquiers,Frontignan,NA,NA,2018-06-19,NA,NA,NA,unknown,unknown,gillnet,clear_wind,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,No,No,unknown,fish,fisher
+F21,F,21,Carnon_Palavas,Carnon,NA,NA,2018-06-19,NA,NA,NA,unknown,unknown,gillnet,clear_wind,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,No,No,unknown,fish,fisher
+F22,F,22,Carnon_Palavas,Carnon,E 3.97020,N 43.51992,2018-06-19,LESURF,Garmin_oregon200,5,17:00,unknown,scubadiving,clear,0,10,15,5_8,NA,3,6,rocky_sandy_seagrass,Yes,Yes,50_x_50,water_benthos_macrophyte,fisher ; done_after_F23 ; video_done_but_uninteresting
+F23,F,23,Carnon_Palavas,Palavas,NA,NA,2018-06-19,NA,NA,NA,unknown,unknown,gillnet,clear_wind,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,No,No,unknown,fish,fisher ; done_before_F22
+F24,F,24,Carnon_Palavas,Palavas,NA,NA,2018-06-20,NA,NA,NA,unknown,unknown,gillnet,clear,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,No,No,unknown,fish,Palavas'_fisher
+F25,F,25,Frontignan_Aresquiers,Frontignan,E 3.778423,N 43.431935,2018-06-21,plage_du_port,Google_maps,NA,15:00,17:30,snorkeling,sunny,NA,NA,17,5_8,NA,0,2,sand_rocky_algae,No,No,20_x_20,water_benthos_macrophytes,
+F26,F,26,Carnon_Palavas,Carnon,NA,NA,2018-06-22,NA,NA,NA,05:00,unknown,gillnet,clear,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,No,No,unknown,fish,fisherman_Jean-Pierre_Gritti
+F33,F,33,Frontignan_Aresquiers,Frontignan,NA,NA,2018-09-06,NA,NA,NA,10:30,11:30,gillnet,cloudy,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,No,No,unknown,fish,fisherman_Denis_PONS
+F34,F,34,Frontignan_Aresquiers,Frontignan,NA,NA,2018-09-07,NA,NA,NA,09:30,12:00,gillnet,sunny,unknown,30,19.4,unknown,unknown,20,40,unknown,No,No,Plateau_Aresquiers,fish,fisherman_Denis_PONS
+F35,F,35,Frontignan_Aresquiers,Frontignan,NA,NA,2018-09-10,NA,NA,NA,09:15,11:10,gillnet,sunny,unknown,20,21.3,unknown,unknown,20,40,unknown,No,No,Plateau_Aresquiers,fish,fisherman_Denis_PONS
+F36,F,36,Frontignan_Aresquiers,Frontignan,NA,NA,2018-09-11,NA,NA,NA,10:00,11:50,gillnet,sunny,unknown,30,21.4,unknown,unknown,20,40,unknown,No,No,Plateau_Aresquiers,fish,fisherman_Denis_PONS
+F37,F,37,Carnon_Palavas,Carnon,E 3.994133,N 43.547394,2018-09-12,plage_avranches,Google_maps,10m,08:00,09:45,snorkeling_fishing_rod,cloudy,unknown,20,21.4,unknown,unknown,1.5,3,unknown,No,Yes (1),unknown,water_sediment_fish,
+F38,F,38,Frontignan_Aresquiers,Frontignan,NA,NA,2018-09-14,NA,NA,NA,10:40,11:45,gillnet,cloudy,unknown,40,21.3,unknown,unknown,20,40,unknown,No,No,Plateau_Aresquiers,fish,fisherman_Denis_PONS
+F39,F,39,Carnon_Palavas,Carnon,NA,NA,2018-09-18,NA,NA,NA,09:17,12:30,gillnet,cloudy,unknown,20,23,unknown,unknown,0,10,unknown,No,no,unknown,fish,fisherman_Jean-Pierre_Gritti
+F40,F,40,Carnon_Palavas,Carnon,NA,NA,2018-09-19,NA,NA,NA,09:35,11:30,gillnet,sunny,unknown,40,23,unknown,unknown,0,10,unknown,No,No,unknown,fish,fisherman_Jean-Pierre_Gritti
+F41,F,41,Carnon_Palavas,Carnon,NA,NA,2018-09-20,NA,NA,NA,09:35,11:02,gillnet,sunny,unknown,20,23,unknown,unknown,0,10,unknown,No,No,unknown,fish,fisherman_Jean-Pierre_Gritti
+F42,F,42,Carnon_Palavas,Carnon,NA,NA,2018-09-21,near_rocks,NA,NA,09:50,13:25,gillnet,sunny,unknown,20,23,unknown,unknown,0,10,unknown,No,Noi,unknown,fish,fisherman_Jean-Pierre_Gritti
+F43,F,43,Carnon_Palavas,Carnon,E 3.97020,N 43.51992,2018-09-24,LESURF,NA,NA,10:00,10:30,scubadiving,sunny,unknown,20,20,unknown,unknown,0,6,unknown,Yes,No,Carnon_le_surf,water_benthos_macrophyte,
+F44,F,44,Carnon_Palavas,Carnon,NA,NA,2018-09-26,NA,NA,NA,10:38,12:00,gillnet,sunny,unknown,40,19.5,unknown,unknown,0,10,unknown,No,No,petit_travers,fish,fisherman_Jean-Pierre_Gritti
+F45,F,45,Carnon_Palavas,Carnon,NA,NA,2018-09-27,NA,NA,NA,09:40,11:10,gillnet,sunny,unknown,40,19.5,unknown,unknown,0,10,unknown,No,No,unknown,fish,fisherman_Jean-Pierre_Gritti
+F46,F,46,Carnon_Palavas,Carnon,NA,NA,2018-09-28,NA,NA,NA,09:45,11:45,gillnet,sunny,unknown,40,19.5,unknown,unknown,0,10,unknown,No,No,unknown,fish,fisherman_Jean-Pierre_Gritti
+F47,F,47,Frontignan_Aresquiers,Frontignan,NA,NA,2018-09-28,NA,NA,NA,10:33,11:45,gillnet,sunny,unknown,40,19.5,unknown,unknown,20,40,unknown,No,No,unknown,fish,fisherman_Jean-Pierre_Gritti
+F48,F,48,Frontignan_Aresquiers,Frontignan,E 3.786338,N 43.421250,2018-10-04,NA,Garmin_gpsmap78,3m,13:00,13:35,scubadiving,sunny,unknown,30,19.4,unknown,unknown,0,8,unknown,Yes,No,unknown,water_benthos_macrophyte,
+R49,R,49,Coral_reef,Eilat_IUI,E 34.917492,N 29.501952,2018-10-09,RIUI,google_maps,NA,20:55,02:05,scubadiving,Night_clear,unknown,unknown,unknown,unknown,unknown,7,15,Coral_reef,No,No,200_x_50,fish,south_of_IUIpier
+R50,R,50,Coral_reef,Eilat_IUI,E 34.917629,N 29.501949,2018-10-10,RIUI,google_maps,NA,15:55,17:00,snorkelling,Sunny_wind,unknown,unknown,unknown,unknown,unknown,0,2,Coral_reef,Yes,No,20_x_20,water_sediment_turf_videos,10m_north_of_pier (+videos morning and day after)
+R51,R,51,North_beach,Eilat_north_beach,E 34.953465,N 29.547305,2018-10-10,RNORTHBEACH,google_maps,NA,20:49,01:30,scubadiving,Night_clear,unknown,unknown,unknown,unknown,unknown,6,15,Coral_reef,No,No,100_x_100,fish_macrophyte,around_underwater_restaurant
+R52,R,52,North_beach,Eilat_north_beach,E 34.953465,N 29.547305,2018-10-11,RNORTHBEACH,google_maps,NA,16:20,17:56,snorkelling,sunny,unknown,unknown,unknown,unknown,unknown,0,7,Coral_reef,Yes,No,20_x_20,water_sediment,under_pier (+ videos)
+R53,R,53,Coral_reef,Eilat_IUI,E 34.916353,N 29.500991,2018-10-12,RIUI,google_maps,NA,09:00,09:45,snorkelling,sunny,unknown,unknown,unknown,unknown,unknown,0,1,Coral_reef,Yes,No,20_x_20,turf_videos,front_of_IUIdorm (+videos south beach)
+R54,R,54,Coral_reef,Eilat_IUI,E 34.917438,N 29.501829,2018-10-12,RIUI,google_maps,NA,17:30,18:15,snorkelling,sunny,unknown,unknown,unknown,unknown,unknown,0,2,Coral_reef,No,No,20_x_20,water_sediment,around_IUIpier
+I55,I,55,Sdot_Yam,Sdot_Yam,E 34.885056,N 32.48966,2018-10-14,ISDOTYAM,NA,NA,22:22,01:15,scubadiving,sunny,unknown,unknown,unknown,unknown,unknown,NA,NA,rocks_sand,No,No,unknown,fish,
+I56,I,56,Sdot_Yam,Sdot_Yam,E 34.885890,N 32.488769,2018-10-15,ISDOTYAM,NA,NA,15:30,17:00,snorkelling,cloudy,unknown,unknown,unknown,unknown,unknown,0,2,rocks_sand,Yes,Yes,100_x_100,water_sediment_turf_videos,
+I57,I,57,Mikhmoret,Mikhmoret,E 34.864384,N 32.40617,2018-10-16,IMIKHMORET,NA,NA,22:08,00:45,scubadiving,Night_clear,unknown,unknown,unknown,unknown,unknown,NA,NA,rocks_sand,No,No,unknown,fish,
+I58,I,58,Mikhmoret,Mikhmoret,E 34.866505,N 32.403348,2018-10-17,IMIKHMORET,NA,NA,13:40,14:00,snorkelling,sunny,unknown,unknown,unknown,unknown,unknown,0,1,rocks_sand,No,No,10_x_10,water_sediment,within_harbour
+I59,I,59.,Sdot_Yam,Sdot_Yam,E 34.887662,N 32.492996,2018-10-17,ISDOTYAM,NA,NA,15:30,16:30,snorkelling,sunny,unknown,unknown,unknown,unknown,unknown,0,1,rocks_sand,No,No,100_x_100,water_sediment_turf_videos,
+F60,F,60,Frontignan_Aresquiers,Frontignan,NA,NA,2018-10-26,NA,NA,NA,11:15,12:15,gillnet,sunny,unknown,unknown,unknown,unknown,unknown,NA,NA,unknown,No,No,unknown,fish,fisherman_Denis_PONS | gillnet_put_the_25/10/2018_at_16:00
+F61,F,61,Carnon_Palavas,Carnon,NA,NA,2018-10-26,NA,NA,NA,11:15,12:15,gillnet,sunny,unknown,unknown,unknown,unknown,unknown,NA,NA,unknown,No,No,unknown,fish,fisherman_Jean-Pierre_Gritti | gillnet_put_the_25/10/2018_at_16:00
+F62,F,62,Thau_lagoon,Bouzigues,E 3.651687,N 43.442298,2018-11-16,NA,google_maps,25m,10:28,16:45,beach_seine,sunny,unknown,unknown,unknown,unknown,unknown,0,2,unknown,Yes,No,unknown,water_sediment_macrophyte_fish,fishermen_marbec_team_RPZ
+F63,F,63,Frontignan_Aresquiers,Frontignan,NA,NA,2018-11-28,NA,NA,NA,10:15,11:36,gillnet,sunny,unknown,0.3,unknown,unknown,unknown,8,12,unknown,No,No,unknown,fish,
+F64,F,64,Carnon_Palavas,Palavas,NA,NA,2018-12-04,NA,NA,NA,10:33,12:00,gillnet,sunny,unknown,0.4,16,unknown,unknown,0,11,unknown,No,No,unknown,fish,
+F65,F,65,Carnon_Palavas,Carnon,NA,NA,2018-12-05,NA,NA,NA,10:33,12:00,gillnet,sunny,unknown,0.4,16,unknown,unknown,0,10,unknown,No,No,unknown,fish,
+F66,F,66,Carnon_Palavas,Carnon,E 3.962567,N 43.533450,2018-12-14,3_arches,Garmin_gpsmap78,3m,13:30,13:54,scubadiving,sunny,unknown,0.5,13,2,unknown,3,6,rocks_sand,Yes,no,unknown,water_sediment_turf,
+F67,F,67,Carnon_Palavas,Palavas,NA,NA,2018-12-17,NA,NA,NA,03:00,16:00,gillnet,Night,unknown,0.4,15,unknown,unknown,NA,20,unknown,No,No,unknown,fish,fish_caught_2018-12-15_frozen_until_2018-12-17
+F68,F,68,Salses_Leucate,Salses_Leucate,NA,NA,2017-10-25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F69,F,69,Carnon_Palavas,Carnon,NA,NA,2019-02-06,NA,NA,NA,likely_10:00,15:00,gillnet,sunny,unknown,0.1,NA,unknown,unknown,NA,NA,unknown,No,No,unknown,fish,
+F70,F,70,Carnon_Palavas,Palavas,NA,NA,2019-02-06,NA,NA,NA,likely_10:30,15:00,gillnet,sunny,unknown,0.1,NA,unknown,unknown,NA,NA,unknown,No,No,unknown,fish,
+F71,F,71,Carnon_Palavas,Palavas,E 3.917280,N 43.520258,2019-02-06,NA,NA,NA,11:30,15:00,beach_seine,sunny,unknown,0.1,NA,unknown,<0.5,0,1,sand,No,No,unknown,water_sediment_food,
+F72,F,72,Carnon_Palavas,Palavas,E 3.917280,N 43.520258,2019-02-28,NA,NA,NA,10:20,14:00,beach_seine,,unknown,0.1,NA,unknown,<0.5,0,1,sand,Yes,Yes,unknown,water_sediment_fish,
+F73,F,73,Carnon_Palavas,Palavas,E 3.917280,N 43.520258,2019-03-20,NA,NA,NA,10:00,12:00,handnet,sunny,significant,0.1,12,1.5,NA,0,1.5,sand,???,Yes,unknown,water_sediment_fish_video,
+F74,F,74,Carnon_Palavas,Palavas,NA,NA,2019-04-11,NA,NA,NA,10:00,12:00,gillnet,cloudy,25,NA,NA,1,NA,NA,NA,unknown,NA,NA,unknown,fish,ice_pack_cooler
+F75,F,75,Frontignan_Aresquiers,Frontignan,NA,NA,2019-04-17,NA,NA,NA,10:00,13:00,gillnet,sunny,unknown,NA,NA,unknown,unknown,NA,NA,unknown,NA,NA,unknown,fish,ice_pack_cooler
+F76,F,76,Carnon_Palavas,Palavas,NA,NA,2019-04-17,NA,NA,NA,12:00,13:00,beach_seine,sunny,unknown,NA,14,unknown,unknown,1,1,rocks_sand,NA,NA,unknown,"juveniles, water and sediment",ice_pack_cooler
+F77,F,77,Carnon_Palavas,Palavas,NA,NA,2019-04-08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F78,F,78,Carnon_Palavas,Palavas,NA,NA,2019-04-01,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F79,F,79,Carnon_Palavas,Palavas,NA,NA,2019-03-13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F80,F,80,Carnon_Palavas,Palavas,NA,NA,2019-03-20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F81,F,81,Carnon_Palavas,Palavas,NA,NA,2019-03-22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,ice_pack_cooler
+F82,F,82,Carnon_Palavas,Palavas,E 3.919503,N 43.520384,2019-05-22,NA,NA,NA,10:30,16:00,gillnet,sunny,13,0.1,15,3,unknown,1,1,rocks_sand,yes,no,unknown,"juveniles, water, sediment and algae",
+G83,G,83,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-06-05,NA,Google_maps,20m,09:00,13:19,gillnet,sunny,NA,10,23,> 20,unknown,0.5,4,rocks_sand,yes,yes,100_x_100,sarpa_juveniles_and_adult_and_siganus,ice_pack_cooler
+G84,G,84,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-06-05,NA,Google_maps,20m,14:00,18:00,spear_gun,sunny,NA,10,23,> 20,unknown,2,3,rocks_sand,yes,yes,100_x_100,siganus_water_sediment_macrophytes,ice_pack_cooler
+G85,G,85,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-06-05,NA,Google_maps,20m,16:30,18:00,NA,sunny,NA,10,23,> 20,unknown,1,1.5,rocks_sand,yes,yes,100_x_100,habitat_videos,ice_pack_cooler
+G86,G,86,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-06-06,NA,Google_maps,20m,09:20,20:30,gillnet_and_speargun,sunny,NA,10,23,> 20,unknown,1,1.5,rocks_sand,yes,yes,100_x_100,"fishes, macrophytes, water, sediment, habitat videos",ice_pack_cooler
+G87,G,87,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-06-07,NA,Google_maps,20m,10:00,11:30,gillnet_and_speagun,sunny,NA,10,23,> 20,unknow_but_current_in_water,1,1.5,rocks_sand_posidonia_seagrass,yes,yes,100_x_100,fishing and videos ,current_in_the_water
+G88,G,88,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-06-07,NA,Google_maps,20m,15:30,17:00,NA,sunny_windy,NA,10,23,> 20,unknow_but_current_in_water,1,1.5,rocks_sand_posidonia_seagrass,yes,yes,100_x_100,"sediment, water, algae",current_in_the_water
+G89,G,89,Bali,Bali,E 24.808517,N 35.411617,2019-06-02,NA,Google_maps,20m,04:00,08:00,gillnet_fishermen,NA,NA,NA,NA,NA,NA,6,7,rocky_substrate,no,no,unknown,fish,
+G90,G,90,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-05-28,NA,Google_maps,20m,09:00,10:00,spear_gun,NA,NA,NA,NA,NA,NA,2,5,rocks_sand,no,no,unknown,fish,
+G91,G,91,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-06-11,NA,Google_maps,20m,09:00,00:20,snorkeling_gillnet_speargun,sunny,NA,NA,NA,NA,NA,1,3,rocks_sand,yes,yes,100_x_100,fish_water_videos,
+G92,G,92,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-06-12,NA,Google_maps,20m,10:00,20:00,spear_gun,sunny,NA,NA,NA,NA,NA,1,6,"rocks, seagrasses bed",yes,yes,100_x_100,fish_videos,
+G93,G,93,Bali,Bali,E 24.808517,N 35.411617,2019-06-12,NA,Google_maps,20m,NA,19:00,gillnet_fishermen,sunny,NA,NA,NA,NA,NA,NA,NA,NA,no,no,unknown,fisherman,
+G94,G,94,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-06-12,NA,Google_maps,20m,12:00,19:00,gillnet,sunny,NA,NA,NA,NA,NA,2,8,"rocks, seagrasses bed",yes,no,100_x_100,"macrophytes, fishes",
+G95,G,95,Bali,Bali,E 24.789807,N 35.407351,2019-06-13,NA,Google_maps,20m,10:30,12:00,NA,sunny,NA,0,NA,> 10,NA,1,6,"sand, rocks",yes,yes,400_x_100,"rocks, macrophytes, water, videos",freshwater_seepage_in_the_bay_and_halocline
+F96,F,96,Carnon_Palavas,Palavas,NA,NA,2019-05-07,NA,NA,NA,NA,NA,gillnet_fishermen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F97,F,97,Carnon_Palavas,Palavas,NA,NA,2019-05-15,NA,NA,NA,NA,NA,gillnet_fishermen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F98,F,98,Carnon_Palavas,Ponant,E 4.101086,N 43.556608,2019-06-18,NA,Google_maps,20m,NA,NA,fishing_rod,NA,NA,NA,NA,NA,NA,0.5,2,lagoon,NA,NA,NA,fish,Etang du Ponant regrouppé avec carnon_palavas
+F99,F,99,Carnon_Palavas,Palavas,E 3.919151,N 43.519812,2019-06-26,NA,Google_maps,20m,10:00,12:00,gillnet,sunny,unknown,unknown,unknown,2m,unknown,0.5,2,"rocks, sand",no,no,100_x_5,sarpa_juveniles,
+F100,F,100,Carnon_Palavas,Palavas,E 3.917180,N 43.520333,2019-06-27,NA,Google_maps,20m,07:35,08:15,gillnet,sunny,unknown,unknown,unknown,2m,unknown,0.5,2,"rocks, sand",no,no,100_x_5,sarpa_juveniles_macrophytes_sediment_water,
+F101,F,101,Carnon_Palavas,Carnon,NA,NA,2019-07-04,NA,NA,NA,NA,NA,gillnet_fishermen,sunny,unknown,unknown,unknown,NA,unknown,NA,NA,NA,NA,NA,NA,Sarpa_salpa,
+F102,F,102,Carnon_Palavas,Palavas,E 3.917180,N 43.520333,2019-07-04,NA,Google_maps,20m,10:00,12:30,snorkeling_gillnet,sunny,unknown,unknown,27,2m,unknown,0.5,2,"rocks, sand",no,yes,100_x_5,sarpa_juveniles_water_sediments_Mugilidae,
+F103,F,103,Carnon_Palavas,Carnon,E 3.97020,N 43.51992,2019-07-04,LESURF,Garmin_oregon200,5m,10:45,11:00,scubadiving,sunny,unknown,unknown,27,5m,unknown,8,8.5,"rocks, seagrasses bed",yes,no,20_x_20,macrophytes_seagrass_sediments,
+F104,F,104,Frontignan_Aresquiers,Frontignan,  E 3.805817,N 43.437167,2019-07-04,NA,Garmin_gpsmap78,3m,12:30,12:45,scubadiving,sunny,unknown,unknown,27,2m,unknown,5.5,6.2,"rocks, seagrasses bed",yes,no,20_x_20,seagrass_sediments,
+F105,F,105,Frontignan_Aresquiers,Frontignan,E 3.769500,N 43.429550,2019-07-11,NA,Google_maps,10m,10:00,12:15,snorkeling_gillnet,sunny,unknown,unknown,24,2m,unknown,0.5,3,"rocks, sand",yes,yes,30_x_6,sarpa_juveniles_and_youngs_water_sediments_Mugilidae,
+F106,F,106,Carnon_Palavas,Carnon,E 3.994133,N 43.547394,2019-07-14,plage_avranches,Google_maps,10m,10:00,11:35,snorkeling,sunny,30,10,24,10m,weak,0.5,3,"rocks, sand",yes,yes,30_x_6,videos,Sunday_seb
+F107,F,107,Frontignan_Aresquiers,Frontignan,E 3.769500,N 43.429550,2019-08-29,NA,Google_maps,10m,09:30,13:00,snorkeling_gillnet,sunny,unknown,unknown,23,4m,unknown,0.5,3,"rocks, sand",no,yes,30_x_6,sarpa_juveniles_and_youngs_water_sediments_macrophytes,
+F108,F,108,Frontignan_Aresquiers,Frontignan,E 3.769500,N 43.429550,2019-09-20,NA,Google_maps,10m,10:30,13:00,snorkeling_gillnet,cloudy,unknown,unknown,22,NA,unknown,0.5,3,"rocks, sand",yes,yes,30_x_6,sarpa_youngs_water_sediments_macrophytes_camera_tests_excretion,
+F109,F,109,Carnon_Palavas,Carnon,NA,NA,2019-09-25,NA,NA,NA,NA,13:00,gillnet,sunny,unknown,unknown,NA,NA,unknown,NA,NA,NA,no,no,NA,Sarpa_salpa,fisherman_Jean-Pierre_Gritti
+G110,G,110,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-02,NA,Google_maps,20m,09:30,11:00,gillnet_speargun,sunny,unknown,unknown,NA,> 10,unknown,0.5,3,rocks_sand,no,no,100_x_50,fish,
+G111,G,111,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-02,NA,Google_maps,20m,06:30,19:30,video_long,cloudy,unknown,unknown,NA,> 10,unknown,0.5,2,rocks_sand_seagrasses,yes,yes,100_x_50,video,
+G112,G,112,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-03,NA,Google_maps,20m,07:15,14:00,gillnet,sunny,unknown,unknown,NA,> 10,unknown,0.5,2,rocks_sand_seagrasses,yes,yes,100_x_50,videos_fish_water,
+G113,G,113,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-03,NA,Google_maps,20m,15:00,20:30,gillnet_speargun,sunny,unknown,unknown,NA,> 10,unknown,0.5,2,rocks_sand_seagrasses,yes,yes,100_x_50,fish,
+G114,G,114,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-04,NA,Google_maps,20m,09:00,16:00,gillnet_speargun_snorkeling,windy_sunny,unknown,unknown,NA,> 10,unknown,0.5,2,rocks_sand_seagrasses,yes,yes,100_x_50,water_excretion_fishes_sediment_macrophytes,
+G115,G,115,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-04,NA,Google_maps,20m,20:20,00:00,hand_net_slingshot,night_waves,unknown,unknown,NA,NA,NA,NA,NA,rocks_sand_seagrasses,no,no,100_x_50,fishes,
+G116,G,116,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-05,NA,Google_maps,20m,NA,NA,gillnet_fisherman,windy_waves,unknown,unknown,NA,NA,NA,NA,NA,rocks_sand_seagrasses,no,no,NA,fishes_caught_probably_in_the_night_because_not_really_fresh,fisherman_Heraklion_caught_in_Kokkini_Hani
+G117,G,117,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-10-07,NA,Google_maps,20m,07:30,19:30,speargun_gillnet,sunny_waves,unknown,unknown,NA,NA,NA,NA,NA,rocks_sand_seagrasses,yes,yes,100_x_50,videos_fish,
+G118,G,118,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-10-07,NA,Google_maps,20m,NA,20:00,gillnet,NA,unknown,unknown,NA,NA,NA,NA,NA,rocks_sand_seagrasses,yes,yes,100_x_50,fish,
+G119,G,119,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-10-08,NA,Google_maps,20m,07:30,20:00,snorkeling_gillnet,sunny,unknown,unknown,NA,NA,NA,NA,NA,rocks_sand_seagrasses,yes,yes,100_x_50,fish_water_sediment_macrophytes_videos,
+G120,G,120,Hersonissos,Hersonissos,E 25.386977,N 35.330012,2019-10-08,NA,Google_maps,20m,11:00,20:00,scuba_diving_gillnet,sunny,unknown,unknown,25,NA,NA,NA,4.5,rocks_sand_seagrasses,yes,yes,100_x_50,fish_gillnet,
+G121,G,121,Psaromoura,Psaromoura,E 25.019226,N 35.413666,2019-10-09,NA,Google_maps,20m,10:30,20:30,snorkeling_gillnet,sunny,unknown,unknown,NA,NA,NA,NA,NA,rocks_sand_seagrasses,yes,yes,100_x_50,fish_water_sediment_macrophytes,
+G122,G,122,Kokkini_Hani,Kokkini_Hani,E 25.253880,N 35.332325,2019-10-09,NA,Google_maps,20m,NA,11:30,gillnet_fisherman_Thanos,night,unknown,unknown,NA,NA,NA,NA,NA,rocks_sand_seagrasses,no,no,NA,fish,rain_between_07_and_08_october ; fishes_caught_during_the_night_by_fisherman
+F123,F,123,Frontignan_Aresquiers,Frontignan,E 3.769500,N 43.429550,2019-10-29,NA,Google_maps,10m,10:50,11:15,snorkeling_gillnet,sunny,unknown,unknown,18,1m,NA,NA,NA,"rocks, sand",no,no,30_x_6,sarpa_salpa_juveniles_water_sediment_macrophyte,
+F124,F,124,Frontignan_Aresquiers,Frontignan,E 3.769500,N 43.429550,2019-11-19,NA,Google_maps,10m,10:00,11:10,snorkeling_gillnet,sunny_cold_water,unknown,unknown,11,NA,NA,1,2.20,"rocks, sand",yes,no,30_x_6,sarpa_salpa_juveniles_water_sediment_macrophyte,
+F125,F,125,Carnon_Palavas,Palavas,NA,NA,2019-11-25,NA,NA,NA,NA,NA,gillnet_fishermen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,
+F126,F,126,Carnon_Palavas,Palavas,NA,NA,2019-11-26,NA,NA,NA,NA,NA,gillnet_fishermen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,heavy_rain_4_days_before_sampling
+F127,F,124,Frontignan_Aresquiers,Frontignan,E 3.769500,N 43.429550,2020-07-07,NA,Google_maps,10m,09:45,12:00,snorkeling_gillnet,sunny,20,10,19,5m,<0.5,1,2,"rocks, sand",no,no,100_x_6,sarpa_salpa,"beach has been refilled with sand, depth beyond jetty is now 2m"
