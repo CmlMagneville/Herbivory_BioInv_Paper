@@ -57,10 +57,10 @@ source(here::here("R", "7_1_Temp_var_Fig5.R"))
 source(here::here("R", "7_2_Info_Fig5.R"))
 
 # fig 6
-
+source(here::here("R", "8_1_Temp_var_Fig6.R"))
 
 # info fig6
-
+source(here::here("R", "8_2_Info_Fig6.R"))
 
 # fig 7
 source(here::here("R", "9_Cum_graz_Fig7.R"))
