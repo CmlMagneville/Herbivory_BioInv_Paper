@@ -67,3 +67,15 @@ source(here::here("R", "9_Cum_graz_Fig7.R"))
 
 # SI3
 source(here::here("R", "10_Occ_seconds_SI3.R"))
+
+# SI4
+source(here::here("R", "11_1_Grazing_vs_swimm_SI4.R"))
+
+# info SI4
+source(here::here("R", "11_2_Info_SI4.R"))
+
+# SI5
+
+
+# SI7
+source(here::here("R", "13_Presencetime_vs_bites_SI7.R"))
