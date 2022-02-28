@@ -72,6 +72,9 @@ for (sd in unique(bites_nb_all_cam_df$seq_day)) {
 
 bites_nb_all_cam_top_df$time <- hms::as_hms(bites_nb_all_cam_top_df$time)
 
+# save df because need for fig 8:
+saveRDS(bites_nb_all_cam_top_df, file = here::here("transformed_data", "bites_nb_all_cam_top_df.rds"))
+
 
 # gather data at day/cam scale by gathering species:
 bites_nb_all_sp_top_df <- as.data.frame(matrix(ncol = 5, nrow = 62*3))
