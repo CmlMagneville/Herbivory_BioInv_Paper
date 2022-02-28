@@ -65,4 +65,5 @@ source(here::here("R", "8_2_Info_Fig6.R"))
 # fig 7
 source(here::here("R", "9_Cum_graz_Fig7.R"))
 
-
+# SI3
+source(here::here("R", "10_Occ_seconds_SI3.R"))
