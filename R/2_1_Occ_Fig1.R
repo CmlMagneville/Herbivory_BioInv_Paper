@@ -195,6 +195,12 @@ rownames(comb_matrix_upset_seq) <- c("Sarpa salpa", "Siganus rivulatus", "Sparis
 
 # 2 - Plot ####
 
+# prepare for saving  the plot: 
+pdf(file = here::here("outputs/Fig1B.pdf"),
+    height = 50,
+    width = 52)
+
+# plot
 upset_graph_seq <- ComplexHeatmap::UpSet(comb_matrix_upset_seq, 
                          comb_order = order(ComplexHeatmap::comb_size(comb_matrix_upset_seq)),
                          pt_size = grid::unit(5, "mm"), lwd = 4,
@@ -203,12 +209,10 @@ upset_graph_seq <- ComplexHeatmap::UpSet(comb_matrix_upset_seq,
                          bg_pt_col = "grey85",
                          right_annotation = ComplexHeatmap::upset_right_annotation(comb_matrix_upset_seq, 
                                       gp = grid::gpar(fill = "gray40", color = "gray40")))
-
-
-
-# save the plot: 
 upset_graph_seq
-pdf(file = here::here("outputs/Fig1B.pdf"),
-                height = 50,
-                width = 52)
+
+
+
+# clean plot window:
 dev.off()
+
