@@ -36,12 +36,18 @@ the `make.R` file
 
 ## <span style="color: aquamarine;">Goals of the Project</span>
 
+The goal of this project is to study the **herbivory activity** and
+**its temporal variation within a day and across days** in an **invasive
+context** using **long-duration remote underwater cameras**.
+
+To learn more \>\>\> [add article](link_to_add)
+
 ## <span style="color: aquamarine;">Raw Data</span>
 
 The `raw_data` folder contains:
 
 -   `annot_data.rds`: a dataframe containing informations about when
-    annotations has been realised. :wrench: It has **four columns**:
+    annotations has been realised. :wrench: It has **four columns** :
     `frame_nb_start` -> the frame number of the beginning of the
     annotation sequence, `frame_nb_stop` -> the frame number of the end
     of the annotation sequence, `real_time_start` -> the time
@@ -77,3 +83,59 @@ sequences of annotation \* 3 days \* 4 cameras
     October 2019 was used.
 
 ## <span style="color: aquamarine;">Transformed Data</span>
+
+The `tranformed_data` folder contains:
+
+-   `all_info_df.rds`: organised as the `final_0_1_all_cam_all_days`
+    dataframe but Species columns are divided into *grazing* and
+    *swimming* behaviour and two columns have been added for sequence
+    number (from 1 to 62 per day and camera) and a “day-camera” string.
+
+-   `bites_nb_all_cam_top_df.rds`: shows the number of bites of **each
+    species** per sequence and mean maxN across the four spots of each
+    species per sequence.
+
+-   `bites_nb_all_sp_top_df.rds`: shows the number of bites for **the
+    four species altogether** per sequence and mean maxN across the four
+    spots of each species per sequence.
+
+-   `bites_nb_cam_day_df.rds` : shows the proportion of time where each
+    species is annotated grazing for one day and one camera compared to
+    the amount of time where the species is seen.
+
+-   `bites_nb_seq_model_df.rds`: shows the data used for the generalized
+    linear model.
+
+-   `bites_sp_prop_df.rds`: shows the number of bites given by each
+    species for one day and one camera and the total number of bites
+    done for one day and one camera.
+
+-   `final_all_info_df.rds`: shows for each species and each sequence of
+    each day and camera: the maxN, the total bites number, the maximal
+    number of individuals seen grazing, the mean number of individuals
+    seen grazing, the number of frame where individual are seen grazing
+    and the number of frame where individual are seen.
+
+-   `final_all_info_df2.rds`: is the same as the `final_all_info_df` but
+    the same of species is changed.
+
+-   `grazing_sc_sr2.rds`: shows the number of bites of *Sparisoma
+    cretense* in sequences where it is seen grazing and the number of
+    individual of *Sparisoma cretense* grazing. A column indicate
+    whether *Sparisoma cretense* individual(s) is/are grazing alone or
+    with *Siganus rivulatus* and the last column refers to the category
+    of abundance used for the plot.
+
+-   `grazing_ss_sr2.rds`: shows the number of bites of *Sarpa salpa* in
+    sequences where it is seen grazing and the number of individual of
+    *Sarpa salpa* grazing. A column indicate whether *Sarpa salpa*
+    individual(s) is/are grazing alone or with *Siganus rivulatus* and
+    the last column refers to the category of abundance used for the
+    plot.
+
+## Contributions
+
+CM, SV and TC conceived the ideas and designed methodology; MLLB, TD,
+GS, SV and CM collected the data; MLLB and CM analysed the data; CM and
+SV led the writing of the manuscript. All authors contributed critically
+to the drafts and gave final approval for publication.
