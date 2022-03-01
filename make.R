@@ -57,7 +57,7 @@ source(here::here("R", "7_1_Temp_var_Fig5.R"))
 source(here::here("R", "7_2_Info_Fig5.R"))
 
 # fig 6
-source(here::here("R", "8_1_Temp_var_Fig6.R"))
+source(here::here("R", "8_1_Bites_MaxN_Var_Fig6.R"))
 
 # info fig6
 source(here::here("R", "8_2_Info_Fig6.R"))
@@ -69,13 +69,13 @@ source(here::here("R", "9_Cum_graz_Fig7.R"))
 source(here::here("R", "10_Occ_seconds_SI3.R"))
 
 # SI4
-source(here::here("R", "11_1_Grazing_vs_swimm_SI4.R"))
+source(here::here("R", "11_1_Graz_vs_swimm_SI4.R"))
 
 # info SI4
 source(here::here("R", "11_2_Info_SI4.R"))
 
-# SI5
-
+# SI6
+source(here::here("R", "12_maxN_passing_SI6.R"))
 
 # SI7
 source(here::here("R", "13_Presencetime_vs_bites_SI7.R"))
