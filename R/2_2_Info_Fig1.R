@@ -27,6 +27,20 @@ nrow(final_pres_abs_tot[which(final_pres_abs_tot$Sarpa_salpa != 0), ])
 # occurence in seconds of Sparisoma cretense:
 nrow(final_pres_abs_tot[which(final_pres_abs_tot$Sparisoma_cretense != 0), ])
 
+# percentage of occurence of at least one of the four species in seconds compared to the 
+# ... total nb of second annotated (75144 seconds):
+nrow(final_pres_abs_tot[which(final_pres_abs_tot$Sparisoma_cretense != 0 |
+                                final_pres_abs_tot$Sarpa_salpa != 0 |
+                                final_pres_abs_tot$Siganus_rivulatus != 0 |
+                                final_pres_abs_tot$Siganus_rivulatus != 0), ]) / 75144
+
+# percentage of occurence of at least one of the four species in sequence compared to the 
+# ... total nb of sequences annotated (744 seconds):
+nrow(matrix_upset_seq[which(matrix_upset_seq$Sparisoma_cretense != 0 |
+                              matrix_upset_seq$Sarpa_salpa != 0 |
+                              matrix_upset_seq$Siganus_rivulatus != 0 |
+                              matrix_upset_seq$Siganus_rivulatus != 0), ]) / 744
+
 
 ####
 
@@ -41,23 +55,57 @@ nrow(final_pres_abs_tot[which(final_pres_abs_tot$Sparisoma_cretense != 0), ])
 matrix_upset_seq2 <- matrix_upset_seq
 matrix_upset_seq2$sum <- apply(matrix_upset_seq2, 1, sum)
 
-# compute the number of frames on which there is only one species:
+# compute the number of seq on which there is only one species:
 nrow(matrix_upset_seq2[which(matrix_upset_seq2$sum == 1), ])
 
-# compute the proportion of frames having one species regarding the total number of frames where species are seen:
+# compute the proportion of seq having one species regarding the total number of seq:
+# do not divide by nrow(matrix_upset2) because does not contain seq with 0 in seen
+(nrow(matrix_upset_seq2[which(matrix_upset_seq2$sum == 1), ]) / 744) * 100
+
+# compute the proportion of seq having one species regarding the total number of seq where at least one ind is seen:
+# do not divide by nrow(matrix_upset2) because does not contain seq with 0 in seen
 (nrow(matrix_upset_seq2[which(matrix_upset_seq2$sum == 1), ]) / nrow(matrix_upset_seq2)) * 100
 
-# compute the proportion of occurrence of SS and SR:
-(nrow(matrix_upset_seq2[which(matrix_upset_seq2$Siganus_rivulatus == 1 & matrix_upset_seq2$Sarpa_salpa == 1), ]) / nrow(matrix_upset_seq2)) * 100
+# compute the proportion of frames having only one species regarding the total number of frames:
+# do not divide by nrow(matrix_upset2) because does not contain seq with 0 in seen
+final_pres_abs_tot2 <- final_pres_abs_tot
+final_pres_abs_tot2$sum <- apply(final_pres_abs_tot2[, c(4:7)], 1, sum)
+(nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$sum == 1), ]) / 75144)*100
 
-# compute  the proportion of occurrence of SS and SR based on frames where we see SS:
+# compute the proportion of frames having one species regarding the total number of frames:
+# do not divide by nrow(matrix_upset2) because does not contain seq with 0 in seen
+(nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$sum == 1), ]) / 
+    nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$sum != 0), ]))*100
+
+# compute the proportion of occurrence in seq of SS and SR:
+(nrow(matrix_upset_seq2[which(matrix_upset_seq2$Siganus_rivulatus == 1 & matrix_upset_seq2$Sarpa_salpa == 1), ]) / 744) * 100
+
+# compute the proportion of occurrence in seconds of SS and SR:
+(nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$Siganus_rivulatus >= 1 & final_pres_abs_tot2$Sarpa_salpa >= 1), ]) / 75144) * 100
+
+# compute the proportion of occurrence of SS and SR based on seq where we see SS:
 (nrow(matrix_upset_seq2[which(matrix_upset_seq2$Siganus_rivulatus == 1 & matrix_upset_seq2$Sarpa_salpa == 1), ]) / nrow(matrix_upset_seq2[which(matrix_upset_seq2$Sarpa_salpa == 1), ])) * 100
 
-# compute  the proportion of occurrence of SS and SR based on frames where we see SR:
+# compute  the proportion of occurrence of SS and SR based on seq where we see SR:
 (nrow(matrix_upset_seq2[which(matrix_upset_seq2$Siganus_rivulatus == 1 & matrix_upset_seq2$Sarpa_salpa == 1), ]) / nrow(matrix_upset_seq2[which(matrix_upset_seq2$Siganus_rivulatus == 1), ])) * 100
 
-# compute the proportion of occurrence of natives and SR:
-(nrow(matrix_upset_seq2[which(matrix_upset_seq2$Siganus_rivulatus == 1 & matrix_upset_seq2$Sarpa_salpa == 1 & matrix_upset_seq2$Sparisoma_cretense == 1), ]) / nrow(matrix_upset_seq2)) * 100
+
+# compute the proportion of occurrence of SS and SR based on frames where we see SS:
+(nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$Siganus_rivulatus >= 1 & final_pres_abs_tot2$Sarpa_salpa >= 1), ]) 
+  / nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$Sarpa_salpa >= 1), ])) * 100
+
+
+# compute the proportion of occurrence of SS and SR based on frames where we see SR:
+(nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$Siganus_rivulatus >= 1 & final_pres_abs_tot2$Sarpa_salpa >= 1), ]) 
+  / nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$Siganus_rivulatus >= 1), ])) * 100
+
+
+# compute the proportion of occurrence of natives and SR in seq nb:
+(nrow(matrix_upset_seq2[which(matrix_upset_seq2$Siganus_rivulatus == 1 & matrix_upset_seq2$Sarpa_salpa == 1 & matrix_upset_seq2$Sparisoma_cretense == 1), ]) / 744) * 100
+
+# compute the proportion of occurrence of SS and SR based on frames where we see SR:
+(nrow(final_pres_abs_tot2[which(final_pres_abs_tot2$Siganus_rivulatus >= 1 & final_pres_abs_tot2$Sarpa_salpa >= 1 &
+                                  final_pres_abs_tot2$Sparisoma_cretense >= 1), ]) / 75144) * 100
 
 
 ## 2 - Create new matrix for step 3 ####
